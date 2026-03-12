@@ -1,7 +1,6 @@
 {
     "name": "newsjs",
     "version": "1.0.0",
-    "type": "module",
     "description": "Run application:  \r - Copy and rename `.env.example` to `.env` and set variables with your data  \r - Install dependencies by running command `npm install` in your terminal\r - Run command in your terminal `npm start`",
     "main": "webpack.base.config.js",
     "scripts": {
@@ -29,6 +28,7 @@
         "html-webpack-plugin": "^5.6.0",
         "prettier": "3.2.5",
         "style-loader": "^3.3.4",
+        "ts-loader": "^9.5.4",
         "ts-node": "^10.9.2",
         "typescript": "^5.9.3",
         "webpack": "^5.90.1",
